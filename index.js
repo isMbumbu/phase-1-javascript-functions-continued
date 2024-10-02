@@ -15,8 +15,7 @@ function mondayWork(def = 'go to the office', msg = 'This Monday, I will ') {
     return `${msg}${def}.`;
 }
 function wrapAdjective(wrapper) {
-    return function(adjective) {
+    return function(adjective="a dedicated programmer") {
       return `You are ${wrapper}${adjective}${wrapper}!`;
     };
   }
-  
